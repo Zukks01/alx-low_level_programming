@@ -4,7 +4,7 @@
  *
  * Description: using the main function to print
  *  Programming is like building a multilingual puzzle
- *  Return 0
+ *  Return: 0
  */
 int main(void)
 {
