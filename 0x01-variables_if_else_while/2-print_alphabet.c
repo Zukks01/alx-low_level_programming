@@ -1,19 +1,18 @@
 #include <stdio.h>
 /**
- * main - print alphabet in lowercase
- *
+ * main - a program that prints the alphabet in lowercase
+ * Description: using the main function use putchar
+ * to print alphbet in lowercase
  * Return: 0
- *
  */
 int main(void)
 {
-	char c = 'a';
+	char c;
 
-	while (c <= 'z')
+	for (c = 'a'; c >= 'z'; c++)
 	{
 		putchar(c);
-			c++;
 	}
-	putchar('\n')
-		return (0);
+	putchar('\n');
+	return (0);
 }
