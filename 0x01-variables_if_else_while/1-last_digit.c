@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - determine either greater than 5, is less than 6, or 0
- * Description: using the main fuction printf
- * if the last digit of a random number is greater than or less than 5 or is 0
+ * main - determine if the last digit of a random number
+ * is greater than or less than 5 or is 0
+ *
  * Return: 0
  */
 int main(void)
