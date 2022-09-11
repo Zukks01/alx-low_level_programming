@@ -8,18 +8,18 @@
  */
 int main(void)
 {
-	int i;
 	int c;
+	int i;
 
-	for (i = '0'; i <= '9'; i++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (c = '0'; c <= '9'; c++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			if (i < c)
+			if (c < i)
 			{
 				putchar(i);
 				putchar(c);
-				if (i != '8' || (i == '8' && c != '9'))
+				if (c != '8' || (c == '8' && i != '9'))
 				{
 					putchar(',');
 					putchar(' ');
