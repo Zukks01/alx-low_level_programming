@@ -22,11 +22,10 @@ int _atoi(char *s)
 			result -= (s[i] - '0');
 			boolean = 1;
 		}
-		else
-		{
-			(boolean == 1)
-				i++;
-		}
+		else if (boolean == 1)
+			break;
+		i++;
+	}
 		result *= minus;
 		return (result);
 }
