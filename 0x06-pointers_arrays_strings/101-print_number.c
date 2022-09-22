@@ -8,13 +8,6 @@ void print_number(int n)
 {
 	int res, temp, expo;
 
-	temp = res;
-	/*Initialize exponent variable*/
-	while (temp <= -10)
-	{
-		expo *= 10;
-		temp /= 10;
-	}
 	expo = 1;
 	/*Check negatives*/
 	if (n >= 0)
@@ -23,6 +16,14 @@ void print_number(int n)
 	{
 		res = n;
 		_putchar('-');
+	}
+
+	/*Initialize exponent variable*/
+	temp = res;
+	while (temp <= -10)
+	{
+		expo *= 10;
+		temp /= 10;
 	}
 	/*Main */
 	while (expo >= 1)
