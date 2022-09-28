@@ -7,11 +7,11 @@
  */
 int sqrt2(int a, int b)
 {
-	if (a * a == b)
-		return (a);
-	else if (a * a > b)
+	if (b * b == a)
+		return (b);
+	else if (b * b > a)
 		return (-1);
-	return (sqrt2(b, a + 1));
+	return (sqrt2(a, b + 1));
 }
 /**
  * _sqrt_recursion- returns the natural square root of a number
