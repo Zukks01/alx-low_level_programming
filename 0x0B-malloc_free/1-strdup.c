@@ -1,6 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-#include <stdio.h>
 /**
  * _strdup - copies a string into a new buffer
  * @str: the string to copy
