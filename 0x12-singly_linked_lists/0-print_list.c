@@ -7,12 +7,12 @@
  */
 size_t print_list(const list_t *h)
 {
-	size_t i;
+	size_t n;
 
-	for (i = 0; h; i++)
+	for (n = 0; h; n++)
 	{
 		printf("[%d] %s\n", h->len, h->str);
 		h = h->next;
 	}
-	return (i);
+	return (n);
 }
